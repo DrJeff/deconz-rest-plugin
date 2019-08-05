@@ -22,6 +22,8 @@
 #define FW_WAIT_UPDATE_READY (2) //s
 #define FW_IDLE_TIMEOUT_LONG (240 * 1000)
 #define FW_WAIT_USER_TIMEOUT (120 * 1000)
+#define FW_ONLY_AVR_BOOTLOADER 1
+#define FW_ONLY_R21_BOOTLOADER 2
 
 /*! Inits the firmware update manager.
  */
