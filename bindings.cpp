@@ -1669,6 +1669,9 @@ bool DeRestPluginPrivate::checkSensorBindingsForAttributeReporting(Sensor *senso
         // CentraLite
         sensor->modelId().startsWith(QLatin1String("Motion Sensor-A")) ||
         sensor->modelId().startsWith(QLatin1String("332")) ||
+        //added 8/5/19 JW
+        sensor->modelId().startsWith(QLatin1String("3326")) ||
+        sensor->modelId().startsWith(QLatin1String("3320")) ||
         // NYCE
         sensor->modelId() == QLatin1String("3011") ||
         sensor->modelId() == QLatin1String("3014") ||
